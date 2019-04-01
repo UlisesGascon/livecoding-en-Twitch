@@ -78,7 +78,7 @@
 - Buenas practicas
 
 **Más Información**
-- :book: Hilo resumen del capitulo en Twitter (Pendiente de crearse)
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1112623559539638273)
 - [:school_satchel: Repo de trabajo](apuntes/issue3)
 - :tv: Ver en Youtube (Pendiente de subir)
 
