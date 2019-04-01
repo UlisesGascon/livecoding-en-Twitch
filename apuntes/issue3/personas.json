@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "Theba",
+        "relevante": true,
+        "ruidoso": 10,
+        "moderar": true
+    },
+    {
+        "nombre": "Jorge",
+        "relevante": false,
+        "ruidoso": 15,
+        "moderar": true
+    },
+    {
+        "nombre": "Ulises",
+        "relevante": true,
+        "ruidoso": 1,
+        "moderar": true
+    }
+]
