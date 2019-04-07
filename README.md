@@ -88,7 +88,7 @@
 
 **Detalles**
 - Tipo: Live Coding
-- Expectativas: Repasaremos las bases de javaScript y además revisaremos todos los PRs de MovieFire (App de Homenaje)
+- Expectativas: Repasaremos las bases de la asincronía en javaScript y probaremos el concepto "Realtime" de Firebase creando un script con Nodejs para monitorizar nuestro servidor en tiempo real usando la librería del Core de Nodejs Child Process. Además lanzaremos la primera release de MovieFire (App de Homenaje)
 - Nivel: Medio-Avanzado de JavaScript/Nodejs
 - Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
 - Duración: *Pendiente*
@@ -99,7 +99,7 @@
 **Más Información**
 - :book: Hilo resumen del capitulo en Twitter *(Pendiente)*
 - [:school_satchel: Repo de trabajo para asincronía](apuntes/issue4)
-- :school_satchel: Repo de trabajo para el minitor de sistema  *(Pendiente)*
+- :school_satchel: Repo de trabajo para el monitor de sistema  *(Pendiente)*
 - :tv: Ver en Youtube *(Pendiente)*
 
 
