@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asincronia</title>
+    </head>
+    <body>
+        <h1>Asincronia con AJAX #101</h1>
+        <script>
+        
+        
+
+        function sleep (ms) {
+            console.log("Durmiendo...")
+            return new Promise ((resolve, reject) => {
+                setTimeout(() => {reject(ms)}, ms)
+            })
+        }
+        
+
+
+        function getWeather (id) {
+            return fetch(`http://airemad.com/api/v1/weather/${id}`)
+                .then(res => res.json())
+        }
+        
+        console.log("Paso 1");
+        
+        (async function (){
+            
+            try {
+                console.time("Magia")
+                const res = await fetch("http://airemad.com/api/v1/station")
+                const stations = await res.json();
+                console.log("-stations:", stations);
+                
+                const urls = stations.map(station => getWeather(station.id))
+                
+                const data = await Promise.all(urls)
+                console.log("------DATA:", data)
+                
+                console.timeEnd("Magia")
+                
+                stations.forEach(async station => {
+                    const details = await fetch(`http://airemad.com/api/v1/station/${station.id}`);
+                    const detailsInfo = await details.json();
+                    console.log("name:", detailsInfo.nombre_estacion);                    
+                })
+                
+                
+                
+                
+            } catch(err) {
+                console.log("Error!:", err)
+            } finally {
+                console.log("Fin de la pelicula")
+            }
+            
+
+        })();
+        
+        
+        
+        
+        
+        </script>
+    </body>
+    
+</html>
