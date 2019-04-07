@@ -9,4 +9,4 @@
 - [x] `Async/Await` junto a `try/catch/finally`
 - [x] Callbacks y promesas en la misma función
 - [x] `util.promisify` en Nodejs
-- [ ] `EventEmitter` con el clásico `PingPong Game`
+- [x] `EventEmitter` con el clásico `PingPong Game`
