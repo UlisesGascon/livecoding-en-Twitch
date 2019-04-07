@@ -1,6 +1,6 @@
 # :clapper: Livecoding en Twitch!
 
-![logo de Twitch](iamges/twitch_header.png)
+![logo de Twitch](images/twitch_header.png)
 
 ## Emisiones pasadas
 
