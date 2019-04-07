@@ -1,11 +1,11 @@
 # :clapper: Livecoding en Twitch!
 
-![logo de Twitch](https://res.cloudinary.com/practicaldev/image/fetch/s--7KVc9_u4--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/kjnhtqacrzzhm8umx228.jpeg)
+![logo de Twitch](iamges/twitch_header.png)
 
 ## Emisiones pasadas
 
 ### Issue 1: Survapp, sobrevive al fin del mundo con Node.js
-![imagen promocional](https://static-cdn.jtvnw.net/twitch-event-images-v2/0eafcee9-10a7-48d7-ae8a-3ab80abb636d-320x180)
+![imagen promocional](images/portada_issue1.jpeg)
 
 **Detalles**
 - Expectativas: Versión extendida y en detalle de mi taller "Desarrolla tu Survival Alert con Node.js" del T3chfest de este año. Y además estreno canal!
@@ -29,7 +29,7 @@
 - [:tv: Ver en Youtube](https://www.youtube.com/watch?v=vKcCV5_9rKQ)
 
 ### Issue 2: Desarrollando una app desde cero con Firebase
-![imagen promocional](https://static-cdn.jtvnw.net/twitch-event-images-v2/083350a2-5f3a-43a0-b0b0-05b8e6a889e7-320x180)
+![imagen promocional](images/portada_issue2.jpeg)
 
 **Detalles**
 - Tipo: #LiveCoding del bueno!.
@@ -52,7 +52,7 @@
 - [:tv: Ver en Youtube](https://www.youtube.com/watch?v=A7FfQvh7IUc)
 
 ### Issue 3: Desarrollando una app desde cero con Firebase
-![imagen promocional](https://static-cdn.jtvnw.net/twitch-event-images-v2/3436e502-cc86-49f4-8f5b-d05ba8153b11-320x180)
+![imagen promocional](images/portada_issue3.jpeg)
 
 **Detalles**
 - Tipo: Walkthrough y Live Coding
@@ -85,7 +85,7 @@
 ## :coffee: Apoyame!
 **🍻 Si te gusta lo que hago y quieres apoyarme siempre puedes invitarme a un Café virtual ☕️ para reponer cafeína 😋**
 
-[![imagen que dice "Support me on Buy me a coffee"](https://www.buymeacoffee.com/open_graph_1.jpg)](https://www.buymeacoffee.com/ulisesGascon)
+[![imagen que dice "Support me on Buy me a coffee"](images/coffee_support.jpg)](https://www.buymeacoffee.com/ulisesGascon)
 
 
 
