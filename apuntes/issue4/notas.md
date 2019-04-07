@@ -1,11 +1,11 @@
 ### Temas
-- [ ] Un Maravilloso mundo sin asincronía
-- [ ] Callbacks con timers
-- [ ] Ajax con XMLHttpRequest (XHR) y callbacks
-- [ ] Patrón: `error-first callback style` de Nodejs
-- [ ] Promsesa `then`, `catch`, `finally`
-- [ ] `Promise.resolve`, `Promise.reject`
-- [ ] `Promise.race`, `Promise.all` con `fetch`
+- [x] Un Maravilloso mundo sin asincronía
+- [x] Callbacks con timers
+- [x] Ajax con XMLHttpRequest (XHR) y callbacks
+- [x] Patrón: `error-first callback style` de Nodejs
+- [x] Promsesa `then`, `catch`, `finally`
+- [x] `Promise.resolve`, `Promise.reject`
+- [x] `Promise.race`, `Promise.all` con `fetch`
 - [ ] `util.promisify` en Nodejs
 - [ ] `Async/Await` junto a `try/catch/finally`
 - [ ] Callbacks y promesas en la misma función
