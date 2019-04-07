@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asincronia</title>
+    </head>
+    <body>
+        <h1>Asincronia con AJAX #101</h1>
+        <script>
+        
+        
+        function ajaxRequest (url, cb){
+            const request = new XMLHttpRequest();
+            request.onreadystatechange = function () {
+              if (request.readyState === 4) {
+                 if(request.status == 200){
+                    const response = request.responseText;
+                    cb(false, JSON.parse(response));
+                    //console.log("data:", JSON.parse(response));
+                 } else {
+                    cb({msg: "Tenemos un fallo!!!!"})
+                    //console.log("Tenemos un fallo!!!!");
+                 }
+              }
+            };
+            request.open('GET', url, true);
+            request.send();
+        }
+        
+        ajaxRequest('http://airemad.com/api/v12/station', pintaDatos);
+
+        function pintaDatos (error, datos){
+            if(error) {
+                document.body.innerText = error.msg;
+            } else {
+                document.body.innerText = `Tenemos ${datos.length -1} estaciones`
+            }
+            //console.log(`Tenemos ${datos.length -1} estaciones`)
+        }
+            
+        </script>
+    </body>
+    
+</html>
