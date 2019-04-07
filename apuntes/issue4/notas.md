@@ -7,6 +7,6 @@
 - [x] `Promise.resolve`, `Promise.reject`
 - [x] `Promise.race`, `Promise.all` con `fetch`
 - [x] `Async/Await` junto a `try/catch/finally`
-- [ ] Callbacks y promesas en la misma función
+- [x] Callbacks y promesas en la misma función
 - [ ] `util.promisify` en Nodejs
 - [ ] `EventEmitter` con el clásico `PingPong Game`
