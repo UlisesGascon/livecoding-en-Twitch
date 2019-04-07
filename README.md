@@ -82,6 +82,27 @@
 - [:school_satchel: Repo de trabajo](apuntes/issue3)
 - [:tv: Ver en Youtube](https://www.youtube.com/watch?v=p59kAq_TB7w)
 
+
+### Issue 4: Historía de la asincronía en JavaScript y child processes con Nodejs y Firebase
+![imagen promocional](images/portada_issue4.jpeg)
+
+**Detalles**
+- Tipo: Live Coding
+- Expectativas: Repasaremos las bases de javaScript y además revisaremos todos los PRs de MovieFire (App de Homenaje)
+- Nivel: Medio-Avanzado de JavaScript/Nodejs
+- Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
+- Duración: *Pendiente*
+
+**Contenido**
+- *Pendiente*
+
+**Más Información**
+- :book: Hilo resumen del capitulo en Twitter *(Pendiente)*
+- [:school_satchel: Repo de trabajo para asincronía](apuntes/issue4)
+- :school_satchel: Repo de trabajo para el minitor de sistema  *(Pendiente)*
+- :tv: Ver en Youtube *(Pendiente)*
+
+
 ## :coffee: Apoyame!
 **🍻 Si te gusta lo que hago y quieres apoyarme siempre puedes invitarme a un Café virtual ☕️ para reponer cafeína 😋**
 
