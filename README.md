@@ -94,12 +94,21 @@
 - Duración: *Pendiente*
 
 **Contenido**
-- *Pendiente*
+- Un Maravilloso mundo sin asincronía
+- Callbacks con timers
+- Ajax con XMLHttpRequest (XHR) y callbacks
+- Patrón: `error-first callback style` de Nodejs
+- Promesa `then`, `catch`, `finally`
+- `Promise.resolve`, `Promise.reject`
+- `Promise.race`, `Promise.all` con `fetch`
+- `Async/Await` junto a `try/catch/finally`
+- Callbacks y promesas en la misma función
+- `util.promisify` en Nodejs
+- `EventEmitter` con el clásico `PingPong Game`
 
 **Más Información**
 - :book: Hilo resumen del capitulo en Twitter *(Pendiente)*
 - [:school_satchel: Repo de trabajo para asincronía](apuntes/issue4)
-- :school_satchel: Repo de trabajo para el monitor de sistema  *(Pendiente)*
 - :tv: Ver en Youtube *(Pendiente)*
 
 
