@@ -107,9 +107,9 @@
 - `EventEmitter` con el clásico `PingPong Game`
 
 **Más Información**
-- :book: Hilo resumen del capitulo en Twitter *(Pendiente)*
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1115137372184875008)
 - [:school_satchel: Repo de trabajo para asincronía](apuntes/issue4)
-- :tv: Ver en Youtube *(Pendiente)*
+- :tv: Ver en Youtube *(Pendiente: en proceso de subida...)*
 
 
 ## :coffee: Apoyame!
