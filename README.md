@@ -109,7 +109,7 @@
 **Más Información**
 - [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1115137372184875008)
 - [:school_satchel: Repo de trabajo para asincronía](apuntes/issue4)
-- :tv: Ver en Youtube *(Pendiente: en proceso de subida...)*
+- [:tv: Ver en Youtube](https://youtu.be/DjTuztU2G1U)
 
 
 ## :coffee: Apoyame!
