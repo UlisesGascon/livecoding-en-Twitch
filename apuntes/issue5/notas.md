@@ -1,15 +1,15 @@
 ### Temas
-- [ ] Explicar el proyecto. [Doc | Tutorial Raspberry Pi - Graficar la temperatura de la CPU con Node.js y Highcharts](https://geekytheory.com/tutorial-raspberry-pi-graficar-la-temperatura-de-la-cpu-con-node-js-y-highcharts)
-- [ ] Analizar rápidamente el código y las dependencias
-- [ ] Forkear [el repo](https://github.com/GeekyTheory/) en [estreamercoders](https://github.com/estreamercoders)
-- [ ] Renombre del proyecto a `Firebase-system-monitor`
-- [ ] Habilitar los issues
-- [ ] Preparar el entorno en Local o en C9.io
-- [ ] Creación de la rama `development`
+- [x] Explicar el proyecto. [Doc | Tutorial Raspberry Pi - Graficar la temperatura de la CPU con Node.js y Highcharts](https://geekytheory.com/tutorial-raspberry-pi-graficar-la-temperatura-de-la-cpu-con-node-js-y-highcharts)
+- [x] Forkear [el repo](https://github.com/GeekyTheory/) en [estreamercoders](https://github.com/estreamercoders)
+- [x] Renombre del proyecto a `Firebase-system-monitor`
+- [x] Habilitar los issues
+- [x] Preparar el entorno en Local o en C9.io
+- [x] Creación de la rama `development`
 - [ ] Entender la librería [Child Process](https://nodejs.org/api/child_process.html)
 - [ ] Entender [socket.io](https://github.com/socketio/chat-example.git)
+- [ ] Analizar rápidamente el código y las dependencias
 - [ ] Ley del boy Scout: ¿Podemos refactorizar?
-    - [ ] Creación de la rama `refactor`
+    - [x] Creación de la rama `refactor`
     - [ ] Fichero de configuración
     - [ ] Errores en general y tabulaciones
     - [ ] Actualizar dependencias
