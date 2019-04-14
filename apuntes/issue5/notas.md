@@ -7,16 +7,16 @@
 - [x] Creación de la rama `development`
 - [x] Entender la librería [Child Process](https://nodejs.org/api/child_process.html)
 - [x] Entender [socket.io](https://github.com/socketio/chat-example.git)
-- [ ] Analizar rápidamente el código y las dependencias
-- [ ] Ley del boy Scout: ¿Podemos refactorizar?
+- [x] Analizar rápidamente el código y las dependencias
+- [x] Ley del boy Scout: ¿Podemos refactorizar?
     - [x] Creación de la rama `refactor`
-    - [ ] Fichero de configuración
-    - [ ] Errores en general y tabulaciones
+    - [x] Fichero de configuración
+    - [x] Errores en general y tabulaciones
     - [ ] Actualizar dependencias
-    - [ ] Promesas y otras opciones
-    - [ ] PR con los cambios
-- [ ] Trabajando desde la rama `development`
-- [ ] Incluir Firebase
-- [ ] Preparar un fichero de configuración
+    - [x] Promesas y otras opciones
+    - [x] PR con los cambios
+- [x] Trabajando desde la rama `development`
+- [x] Incluir Firebase
+- [x] Preparar un fichero de configuración
 - [ ] Generar un frontal
 - [ ] Generar una release estable
