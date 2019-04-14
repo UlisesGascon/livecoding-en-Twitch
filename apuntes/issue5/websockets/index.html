@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+    <script>
+        const socket = io('https://'+ location.host);
+
+        function sendTimestamp (){
+            const timeStamp = new Date().getTime();
+            socket.emit('channel8', timeStamp);
+        }
+        
+        setInterval(sendTimestamp, 10)
+
+        
+        socket.on('channel8', function(msg){
+            console.log("msg:", msg);
+            document.body.innerHTML = `<h1>${JSON.stringify(msg, null, 4)}</h1>`
+        });
+    </script>
+  </body>
+</html>

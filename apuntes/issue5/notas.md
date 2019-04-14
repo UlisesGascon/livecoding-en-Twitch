@@ -5,8 +5,8 @@
 - [x] Habilitar los issues
 - [x] Preparar el entorno en Local o en C9.io
 - [x] Creación de la rama `development`
-- [ ] Entender la librería [Child Process](https://nodejs.org/api/child_process.html)
-- [ ] Entender [socket.io](https://github.com/socketio/chat-example.git)
+- [x] Entender la librería [Child Process](https://nodejs.org/api/child_process.html)
+- [x] Entender [socket.io](https://github.com/socketio/chat-example.git)
 - [ ] Analizar rápidamente el código y las dependencias
 - [ ] Ley del boy Scout: ¿Podemos refactorizar?
     - [x] Creación de la rama `refactor`
