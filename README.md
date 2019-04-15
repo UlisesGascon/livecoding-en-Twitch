@@ -91,7 +91,7 @@
 - Expectativas: Repasaremos las bases de la asincronía en javaScript y probaremos el concepto "Realtime" de Firebase creando un script con Nodejs para monitorizar nuestro servidor en tiempo real usando la librería del Core de Nodejs Child Process. Además lanzaremos la primera release de MovieFire (App de Homenaje)
 - Nivel: Medio-Avanzado de JavaScript/Nodejs
 - Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
-- Duración: *Pendiente*
+- Duración: 02:57:08
 
 **Contenido**
 - Un Maravilloso mundo sin asincronía
@@ -112,13 +112,47 @@
 - [:tv: Ver en Youtube](https://youtu.be/DjTuztU2G1U)
 
 
+
+### Issue 5: Child processes con Nodejs y Firebase
+![imagen promocional](images/portada_issue5.jpeg)
+
+**Detalles**
+- Tipo: Live Coding
+- Expectativas: Probaremos el concepto "Realtime" de Firebase creando un script con Nodejs para monitorizar nuestro servidor en tiempo real usando la librería del Core de Nodejs Child Process.
+- Nivel: Avanzado de JavaScript/Nodejs
+- Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
+- Duración: 03:22:58
+
+
+**Contenido**
+- Explicar el proyecto. [Doc | Tutorial Raspberry Pi - Graficar la temperatura de la CPU con Node.js y Highcharts](https://geekytheory.com/tutorial-raspberry-pi-graficar-la-temperatura-de-la-cpu-con-node-js-y-highcharts)
+- Forkear [el repo](https://github.com/GeekyTheory/) en [estreamercoders](https://github.com/estreamercoders)
+- Renombre del proyecto a `Firebase-system-monitor`
+- Habilitar los issues
+- Preparar el entorno en Local o en C9.io
+- Creación de la rama `development`
+- Entender la librería [Child Process](https://nodejs.org/api/child_process.html)
+- Entender [socket.io](https://github.com/socketio/chat-example.git)
+- Analizar rápidamente el código y las dependencias
+- Ley del boy Scout: ¿Podemos refactorizar?
+    - Creación de la rama `refactor`
+    - Añadir un fichero de configuración
+    - Errores en general y tabulaciones
+    - Promesas y otras opciones
+    - PR con los cambios
+- Trabajando desde la rama `development`
+- Incluir Firebase
+- Preparar un fichero de configuración
+
+**Más Información**
+- :book: Hilo resumen del capitulo en Twitter (pendiente)
+- [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue5)
+- [:school_satchel: Repo principal estreamercoders/Firebase-system-monitor](https://github.com/estreamercoders/Firebase-system-monitor)
+- :tv: Ver en Youtube (Subida en proceso)
+
+
+
 ## :coffee: Apoyame!
 **🍻 Si te gusta lo que hago y quieres apoyarme siempre puedes invitarme a un Café virtual ☕️ para reponer cafeína 😋**
 
 [![imagen que dice "Support me on Buy me a coffee"](images/coffee_support.jpg)](https://www.buymeacoffee.com/ulisesGascon)
-
-
-
-
-
-
