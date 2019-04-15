@@ -145,10 +145,10 @@
 - Preparar un fichero de configuración
 
 **Más Información**
-- :book: Hilo resumen del capitulo en Twitter (pendiente)
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1117677857877233664)
 - [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue5)
 - [:school_satchel: Repo principal estreamercoders/Firebase-system-monitor](https://github.com/estreamercoders/Firebase-system-monitor)
-- :tv: Ver en Youtube (Subida en proceso)
+- [:tv: Ver en Youtube](https://youtu.be/2n5_zYdVypc)
 
 
 
