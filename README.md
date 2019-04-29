@@ -152,6 +152,32 @@
 
 
 
+### Issue 6: ¡Yeoman es mucha magia!
+![imagen promocional](images/portada_issue6.jpeg)
+
+**Detalles**
+- Tipo: Live Coding
+- Expectativas: Aprenderemos a utilizar Yeoman para consumir generadores de proyectos e incluso generaremos nuestro propio generador de proyectos para ayudarnos el resto de la temporada.
+- Nivel: Medio/Básico de JavaScript/Nodejs
+- Temas: Yeoman, Node, Automatización
+- Duración: 02:07:20
+
+
+**Contenido**
+- Entender Yeoman
+- Usar un generador (generator-webapp)
+- Destripar un generador (generator-webapp)
+- Entender el proceso de creación de generadores
+- Usar el generador de generadores (generator-generator)
+- Construir nuestro primer geenrador de proyectos
+
+**Más Información**
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1122794122610393088)
+- [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue6)
+- [:tv: Ver en Youtube](https://youtu.be/ZGZ0FSEPKQc)
+
+
+
 ## :coffee: Apoyame!
 **🍻 Si te gusta lo que hago y quieres apoyarme siempre puedes invitarme a un Café virtual ☕️ para reponer cafeína 😋**
 
