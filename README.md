@@ -152,7 +152,7 @@
 
 
 
-### Issue 6: ¡Yeoman es mucha magia!
+### Issue 6: ¡Yeoman es mucha magia! (parte 1/2)
 ![imagen promocional](images/portada_issue6.jpeg)
 
 **Detalles**
@@ -175,6 +175,33 @@
 - [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1122794122610393088)
 - [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue6)
 - [:tv: Ver en Youtube](https://youtu.be/ZGZ0FSEPKQc)
+
+
+### Issue 7: ¡Yeoman es mucha magia! (parte 2/2)
+![imagen promocional](images/portada_issue7.jpeg)
+
+**Detalles**
+- Tipo: Live Coding
+- Expectativas: Aprenderemos a utilizar Yeoman para consumir generadores de proyectos e incluso generaremos nuestro propio generador de proyectos para ayudarnos el resto de la temporada.
+- Nivel: Medio/Básico de JavaScript/Nodejs
+- Temas: Yeoman, Node, Automatización
+- Duración: 02:46:02
+
+
+**Contenido**
+- Funcionamiento interno de Yeoman
+- Usar el mítico [generator-generator](https://www.npmjs.com/package/generator-generator)
+- Crear un generador desde cero para nuestros
+- Utilizar la librería [inquirer](https://www.npmjs.com/package/inquirer) para hacer preguntas por terminal con sentido
+- Utilizar [composability](https://yeoman.io/authoring/composability.html) para extender generadores existentes
+- Crear un generador para hacer proyectos CLI con [Vorpal](https://www.npmjs.com/package/vorpal)
+- Crear un generador para hacer proyectos de scraping con [Puppeteer](https://www.npmjs.com/package/puppeteer)
+
+**Más Información**
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1127886660212076544)
+- [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue7)
+- [:tv: Ver en Youtube](https://youtu.be/6e2M96TTsk4)
+
 
 
 
