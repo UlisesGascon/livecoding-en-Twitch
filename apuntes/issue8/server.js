@@ -1,39 +1,22 @@
 const express = require('express')
 const bodyParser = require('body-parser')
+const api = require('./controllers/api')
+const {port} = require("./config")
 const app = express()
 
+// Middleware
 app.use(bodyParser.json())
-
 app.use(express.static('public'))
 
-// GET /movies/:id -> Detalles de una pelicula
-app.get('/api/movies/:id', (req, res) => {
-  res.json({ msg: `Detalles de una pelicula ${req.params.id}` })
-})
+// Routes
+app.get('/api/movies/:id', api.getItem)
+app.route('/api/movies')
+  .get(api.getAll)
+  .post(api.create)
+  .put(api.update)
+  .delete(api.remove)
 
-// GET /movies -> lista de peliculas
-app.get('/api/movies', (req, res) => {
-  res.json({ msg: `Lista de peliculas` })
-})
-
-// POST /movies -> Crearía una pelicula
-app.post('/api/movies', (req, res) => {
-  const { title } = req.body
-  res.json({ msg: `Crear una pelicula desde ${title}` })
-})
-
-//  PUT /movies -> Actualizaría una pelicula
-app.put('/api/movies', (req, res) => {
-  const { id, data } = req.body
-  res.json({ msg: `Actualizar una pelicula ${id} con ${data}` })
-})
-
-// DELETE /movies -> Borrar una pelicula
-app.delete('/api/movies', (req, res) => {
-  const { id } = req.body
-  res.json({ msg: `Borrar una pelicula ${id}` })
-})
-
-app.listen(8080, () => {
+// Port
+app.listen(port, () => {
   console.log('Ya estamos online!')
 })
