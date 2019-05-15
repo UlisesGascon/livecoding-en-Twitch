@@ -1,19 +1,39 @@
 const express = require("express")
+const bodyParser = require('body-parser')
 const app = express();
 
-app.get("/", (req, res)=>{
-    res.send("Hola mundo!!")
+app.use(bodyParser.json())
+
+app.use(express.static("public"))
+
+// GET /movies/:id -> Detalles de una pelicula
+app.get("/api/movies/:id", (req, res) => {
+    res.json({msg: `Detalles de una pelicula ${req.params.id}`})
 })
 
-app.get("/otra-ruta", (req, res)=>{
-    console.log("Query Params:", req.query)
-    res.send("otra ruta....")
+// GET /movies -> lista de peliculas
+app.get("/api/movies", (req, res) => {
+    res.json({msg: `Lista de peliculas`})
 })
 
-
-app.get("/de/:ciudad_origen/a/:ciudad_destino", (req, res)=>{
-    res.send(`Tu me dices que vienes de ${req.params.ciudad_origen} y piensas ir a ${req.params.ciudad_destino}`)
+//POST /movies -> Crearía una pelicula
+app.post("/api/movies", (req, res) => {
+    const {title} = req.body;
+    res.json({msg: `Crear una pelicula desde ${title}`})
 })
+
+//  PUT /movies -> Actualizaría una pelicula
+app.put("/api/movies", (req, res) => {
+    const {id, data} = req.body;
+    res.json({msg: `Actualizar una pelicula ${id} con ${data}`})
+})
+
+// DELETE /movies -> Borrar una pelicula
+app.delete("/api/movies", (req, res) => {
+    const {id} = req.body;
+    res.json({msg: `Borrar una pelicula ${id}`})
+})
+
 
 app.listen(8080, ()=>{
     console.log("Ya estamos online!")
