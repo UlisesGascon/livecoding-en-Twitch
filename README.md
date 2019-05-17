@@ -211,6 +211,38 @@
 
 
 
+### Issue 8: ¡Desarrollando una APIRest desde cero con Firebase, Express y Nodejs
+![imagen promocional](images/portada_issue8.jpeg)
+
+**Detalles**
+- Tipo: Live Coding
+- Expectativas: Desarrollaremos una APIRest con Nodejs y Express que nos permite guardar nuestras películas favoritas en Firebase.
+- Nivel: Medio/Básico de JavaScript/Nodejs
+- Temas: Firebase, HTTP, Nodejs, Express, Routing, Backend, Insomnia, Postman
+- Duración: 02:47:02
+- Fecha de grabación: 12/05/19
+
+
+**Contenido**
+
+- Recordemos [MovieFire](https://github.com/estreamercoders/Homenaje-a-movieFire) como punto de partida
+- Preparando nuestro entorno: Standard, Nodemon y los scripts básicos
+- Arrancando un proyecto con Express
+- Manejo básico de Rutas en Express
+- Fichero de configuración
+- Manejo de funciones de Ruta (Req, Res, Next)
+- Manejo de Middleware
+- Manejo de Middleware de terceros (Morgan, Helmet, estáticos, body parser, CORS)
+- Refactor con Express Router
+- Implementar Rutas para nuestra API
+- Implementar una estructura de controlador
+- Implementar el modelo de datos con Firebase
+
+**Más Información**
+- [:book: Hilo resumen del capitulo en Twitter](https://twitter.com/kom_256/status/1129326641031929856)
+- [:school_satchel: Repo de trabajo para entender conceptos](apuntes/issue8)
+- [:tv: Ver en Youtube](https://youtu.be/X8X9hRvF2rg)
+
 
 ## :coffee: Apoyame!
 **🍻 Si te gusta lo que hago y quieres apoyarme siempre puedes invitarme a un Café virtual ☕️ para reponer cafeína 😋**
