@@ -13,6 +13,7 @@
 - Nivel: Medio-Avanzado de JavaScript/Nodejs
 - Temas: Firebase, Ajax, Eventos, Manipulación del DOM
 - Duración: 02:23:10
+- Fecha de grabación: 16/03/19
 
 **Contenido**
 - Repasaremos las bases de javaScript y además revisaremos todos los PRs de MovieFire (App de Homenaje)
@@ -37,6 +38,7 @@
 - Nivel: Medio-Básico de JavaScript
 - Temas: Firebase, Ajax, Eventos, Manipulación del DOM
 - Duración: 03:22:51
+- Fecha de grabación: 23/03/19
 
 **Contenido**
 - Github (Gestión de issues, PRs y demás...)
@@ -51,7 +53,7 @@
 - [:school_satchel: Repo de trabajo](https://github.com/estreamercoders/Homenaje-a-movieFire)
 - [:tv: Ver en Youtube](https://www.youtube.com/watch?v=A7FfQvh7IUc)
 
-### Issue 3: Desarrollando una app desde cero con Firebase
+### Issue 3: Repaso a JavaScript y seguimos con Firebase
 ![imagen promocional](images/portada_issue3.jpeg)
 
 **Detalles**
@@ -60,6 +62,7 @@
 - Nivel: Medio-Básico de JavaScript
 - Temas: Firebase, Ajax, Eventos, Manipulación del DOM
 - Duración: 03:19:26
+- Fecha de grabación: 31/03/19
 
 **Contenido**
 - [JavaScript, ¡Inspírate!](https://leanpub.com/javascript-inspirate)
@@ -92,6 +95,7 @@
 - Nivel: Medio-Avanzado de JavaScript/Nodejs
 - Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
 - Duración: 02:57:08
+- Fecha de grabación: 07/04/19
 
 **Contenido**
 - Un Maravilloso mundo sin asincronía
@@ -122,6 +126,7 @@
 - Nivel: Avanzado de JavaScript/Nodejs
 - Temas: Firebase, Promesas, Callbacks, Programación orientada a Eventos, Child processes, Nodejs Core...
 - Duración: 03:22:58
+- Fecha de grabación: 14/04/19
 
 
 **Contenido**
@@ -161,6 +166,7 @@
 - Nivel: Medio/Básico de JavaScript/Nodejs
 - Temas: Yeoman, Node, Automatización
 - Duración: 02:07:20
+- Fecha de grabación: 27/04/19
 
 
 **Contenido**
@@ -186,6 +192,7 @@
 - Nivel: Medio/Básico de JavaScript/Nodejs
 - Temas: Yeoman, Node, Automatización
 - Duración: 02:46:02
+- Fecha de grabación: 12/05/19
 
 
 **Contenido**
